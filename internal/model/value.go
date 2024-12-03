@@ -7,7 +7,7 @@ import (
 
 type Value struct {
 	TTL             time.Time
-	EncodedRawValue any
+	EncodedRawValue any `json:"Value"`
 }
 
 type StoredValue struct {
